@@ -13,4 +13,9 @@ class Product
         $this->price = $price;
         $this->category = $category;
     }
+
+    public function totalPrice() : float
+    {
+        return $this->price;
+    }
 }

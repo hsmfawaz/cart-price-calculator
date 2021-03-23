@@ -14,7 +14,7 @@ class Cart
 
     public function totalPrice() : float
     {
-        return (float) array_reduce($this->products, static fn ($c, $i) => $c + $i->price, 0);
+        return (float) array_reduce($this->products, fn ($c, $i) => $c + $i->totalPrice(), 0);
     }
 
     public function categoriesCount() : array
