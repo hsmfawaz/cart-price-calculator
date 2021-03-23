@@ -1,0 +1,17 @@
+{
+  "name": "hsmfawaz/cart-price",
+  "description": "",
+  "type": "project",
+  "authors": [
+    {
+      "name": "hsmfawaz2",
+      "email": "hsm.fawaz@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App": "src"
+    }
+  }
+}
